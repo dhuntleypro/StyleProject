@@ -10,12 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack {
+            Text("ggggg")
+            Button(action: {
+                print("kkjkkjkjk")
+            }) {
+                Text("mkm")
+            }
+        }
     }
 }
-
+        
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
